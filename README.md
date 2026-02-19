@@ -1,6 +1,6 @@
 # Predictive Maintenance Using Machine Learning
 
-## 📌 Overview
+##  Overview
 
 This project implements a supervised machine learning approach for predictive maintenance using industrial sensor data. The objective is to detect rare equipment failure events under severe class imbalance conditions and evaluate the performance of different classification models.
 
@@ -13,7 +13,7 @@ The project demonstrates how structured data preprocessing, model training, and 
 
 ---
 
-## 🎯 Research Objective
+##  Research Objective
 
 The central research question addressed in this project is:
 
@@ -21,7 +21,7 @@ The central research question addressed in this project is:
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 The dataset contains **124,494 observations** collected from industrial equipment and includes:
 
@@ -36,7 +36,7 @@ To prevent data leakage, non-predictive attributes such as timestamp and device 
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 The machine learning pipeline follows a structured workflow:
 
@@ -52,7 +52,7 @@ Class imbalance is handled using `class_weight='balanced'` rather than resamplin
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 Because the dataset is highly imbalanced, traditional accuracy is not sufficient.
 
@@ -69,7 +69,7 @@ Special emphasis is placed on **recall** and **ROC-AUC**, as failure detection i
 
 ---
 
-## 🏆 Results Summary
+##  Results Summary
 
 - Logistic Regression achieved a ROC-AUC of approximately **0.76**
 - Random Forest achieved a ROC-AUC of approximately **0.68**
@@ -79,7 +79,7 @@ The results indicate that increased model complexity does not necessarily guaran
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python  
 - pandas  
@@ -87,7 +87,7 @@ The results indicate that increased model complexity does not necessarily guaran
 - scikit-learn  
 - matplotlib  
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 Predictive-Maintenance-ML/
 │
